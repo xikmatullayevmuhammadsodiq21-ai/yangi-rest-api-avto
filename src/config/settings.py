@@ -21,7 +21,7 @@ SECRET_KEY = env("SECRET_KEY")
 DEBUG = bool(env("DEBUG"))
 
 
-ALLOWED_HOSTS = env("ALLOWED_HOSTS").split(",")
+ALLOWED_HOSTS = env("ALLOWED_HOSTS").split(",")['AutoApi.pythonanywhere.com']
 
 # Application definition
 
